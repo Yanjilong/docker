@@ -80,7 +80,7 @@ ARG JENKINS_SHA=20e3436e1c05f1fa8c441d7fb41f2a797604194fd9f8e774acb74d47b6187e45
 ARG RELEASE_LINE=war-stable
 
 # Can be used to customize jenkins.war download location
-ARG JENKINS_URL=https://get.jenkins.io/${RELEASE_LINE}/${JENKINS_VERSION}/jenkins.war
+ARG JENKINS_URL=https://get.jenkins.io/${RELEASE_LINE}/2.401.1/jenkins.war
 
 # could use ADD but this one does not check Last-Modified header neither does it allow to control checksum
 # see https://github.com/docker/docker/issues/8331
